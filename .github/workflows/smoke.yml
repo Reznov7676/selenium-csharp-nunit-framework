@@ -1,25 +1,32 @@
 name: Smoke Tests
 
 on:
-  workflow_dispatch:
   push:
-    branches: [ main ]
+    branches:
+      - main
+      - feature/github-actions
+  pull_request:
+    branches:
+      - main
 
 jobs:
   smoke-tests:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v4
+      - name: Checkout repo
+        uses: actions/checkout@v4
 
-    - name: Setup .NET
-      uses: actions/setup-dotnet@v4
-      with:
-        dotnet-version: '8.0.x'
+      - name: Setup .NET 6
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '6.0.x'
 
-    - name: Restore dependencies
-      run: dotnet restore
+      - name: Restore dependencies
+        run: dotnet restore
 
-    - name: Run Smoke Tests
-      run: dotnet test --filter Category=Smoke
+      - name: Build
+        run: dotnet build --no-restore
+
+      - name: Run Smoke Tests
+        run: dotnet test --filter Category=Smoke --no-build

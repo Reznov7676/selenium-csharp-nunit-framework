@@ -11,6 +11,7 @@ namespace SeleniumCSharpFramework.TestAreas.HomePage.TestCases;
 public class tc03 : BaseTest
 {
     [Test]
+    [Category("Smoke")]
     public void tc03_VerifyBottomFooter_LinkWorking()
     {
         page.GetInstance<HomePageMethods>().verifyFooterLinks_working();
