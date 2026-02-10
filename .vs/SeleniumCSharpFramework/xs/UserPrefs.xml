@@ -1,0 +1,61 @@
+﻿<Properties StartupConfiguration="{F9DA0E0F-F931-4CF7-9C03-8C8342F1F473}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SeleniumCSharpFramework/TestAreas/HomePage/TestCases/tc01.cs">
+    <Files>
+      <File FileName="SeleniumCSharpFramework/Base/Page.cs" />
+      <File FileName="SeleniumCSharpFramework/Base/BaseTest.cs" />
+      <File FileName="SeleniumCSharpFramework/Utility/BrowserActions.cs" Line="39" Column="63" />
+      <File FileName="SeleniumCSharpFramework/TestAreas/HomePage/TestCases/tc01.cs" Line="27" Column="1" />
+      <File FileName="SeleniumCSharpFramework/TestAreas/HomePage/PageObjects/HomePageMethods.cs" Line="63" Column="51" />
+      <File FileName="SeleniumCSharpFramework/Base/BasePage.cs" />
+      <File FileName="SeleniumCSharpFramework/Utility/WindowsHelper.cs" />
+      <File FileName="SeleniumCSharpFramework/Utility/MouseActions.cs" />
+      <File FileName="SeleniumCSharpFramework/Utility/JsonUtility.cs" />
+      <File FileName="SeleniumCSharpFramework/appsettings.json" />
+      <File FileName="SeleniumCSharpFramework/Utility/ConfigReader.cs" Line="17" Column="10" />
+      <File FileName="SeleniumCSharpFramework/TestAreas/HomePage/TestCases/tc02.cs" Line="21" Column="78" />
+      <File FileName="SeleniumCSharpFramework/TestAreas/HomePage/TestCases/tc02 (copy).cs" Line="15" Column="6" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SeleniumCSharpFramework" expanded="True">
+            <Node name="SeleniumCSharpFramework" expanded="True">
+              <Node name="Base" expanded="True" />
+              <Node name="TestAreas" expanded="True">
+                <Node name="HomePage" expanded="True">
+                  <Node name="PageObjects" expanded="True" />
+                  <Node name="TestCases" expanded="True">
+                    <Node name="tc03.cs" selected="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="Tests" expanded="True" />
+              <Node name="Utility" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="SeleniumCSharpFramework">
+            <Node name="SeleniumCSharpFramework" expanded="True">
+              <Node name="SeleniumCSharpFramework.TestAreas.HomePage.TestCases" expanded="True">
+                <Node name="tc02" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.SeleniumCSharpFramework PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/jaymaldikar/Projects/SeleniumCSharpFramework/SeleniumCSharpFramework/Utility/WindowsHelper.cs" relfile="SeleniumCSharpFramework/Utility/WindowsHelper.cs" line="30" column="1" />
+      <Breakpoint file="/Users/jaymaldikar/Projects/SeleniumCSharpFramework/SeleniumCSharpFramework/TestAreas/HomePage/PageObjects/HomePageMethods.cs" relfile="SeleniumCSharpFramework/TestAreas/HomePage/PageObjects/HomePageMethods.cs" line="45" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

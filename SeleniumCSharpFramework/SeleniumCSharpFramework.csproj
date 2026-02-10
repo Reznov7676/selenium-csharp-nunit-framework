@@ -1,0 +1,53 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DotNetSeleniumExtras.WaitHelpers" Version="3.11.0" />
+    <PackageReference Include="Selenium.WebDriver" Version="4.18.1" />
+    <PackageReference Include="Selenium.Support" Version="4.18.1" />
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="121.0.6167.8500" />
+    <PackageReference Include="NUnit" Version="3.14.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.5.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.9.0" />
+    <PackageReference Include="log4net" Version="2.0.17" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="10.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="10.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="10.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="TestAreas\" />
+    <None Remove="TestAreas\HomePage\" />
+    <None Remove="TestAreas\HomePage\TestCases\" />
+    <None Remove="TestAreas\HomePage\TestData\" />
+    <None Remove="TestAreas\HomePage\PageObjects\" />
+    <None Remove="TestAreas\HomePage\JsonDataObjects\" />
+    <None Remove="Utility\" />
+    <None Remove="TestAreas\HomePage\TestData\tc01.json" />
+    <None Remove="appsettings.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="TestAreas\" />
+    <Folder Include="TestAreas\HomePage\" />
+    <Folder Include="TestAreas\HomePage\TestCases\" />
+    <Folder Include="TestAreas\HomePage\TestData\" />
+    <Folder Include="TestAreas\HomePage\PageObjects\" />
+    <Folder Include="TestAreas\HomePage\JsonDataObjects\" />
+    <Folder Include="Utility\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\.editorconfig" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="TestAreas\HomePage\TestData\tc01.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+</Project>
