@@ -19,9 +19,16 @@ namespace SeleniumCSharpFramework.Base
         [SetUp]
         public void Setup()
         {
-         
-            
-            driver = new ChromeDriver();
+
+            ChromeOptions options = new ChromeOptions();
+
+            options.AddArgument("--headless=new");
+            options.AddArgument("--no-sandbox");
+            options.AddArgument("--disable-dev-shm-usage");
+            options.AddArgument("--disable-gpu");
+            options.AddArgument("--window-size=1920,1080");
+
+            driver = new ChromeDriver(options);
             driver.Manage().Window.Maximize();
 
             wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
