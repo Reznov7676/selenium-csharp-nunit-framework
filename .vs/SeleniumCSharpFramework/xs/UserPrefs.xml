@@ -1,5 +1,8 @@
-﻿<Properties StartupConfiguration="{F9DA0E0F-F931-4CF7-9C03-8C8342F1F473}|Default">
+﻿<Properties StartupConfiguration="{F9DA0E0F-F931-4CF7-9C03-8C8342F1F473}|Default" GitUserInfo="UsingGIT">
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.SeleniumCSharpFramework PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workbench ActiveDocument="SeleniumCSharpFramework/TestAreas/HomePage/TestCases/tc01.cs">
     <Files>
       <File FileName="SeleniumCSharpFramework/Base/Page.cs" />
@@ -49,13 +52,8 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.SeleniumCSharpFramework PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/jaymaldikar/Projects/SeleniumCSharpFramework/SeleniumCSharpFramework/Utility/WindowsHelper.cs" relfile="SeleniumCSharpFramework/Utility/WindowsHelper.cs" line="30" column="1" />
-      <Breakpoint file="/Users/jaymaldikar/Projects/SeleniumCSharpFramework/SeleniumCSharpFramework/TestAreas/HomePage/PageObjects/HomePageMethods.cs" relfile="SeleniumCSharpFramework/TestAreas/HomePage/PageObjects/HomePageMethods.cs" line="45" column="1" />
-    </BreakpointStore>
+    <Breakpoint file="/Users/jaymaldikar/Projects/SeleniumCSharpFramework/SeleniumCSharpFramework/Utility/WindowsHelper.cs" relfile="SeleniumCSharpFramework/Utility/WindowsHelper.cs" line="30" column="1" />
+    <Breakpoint file="/Users/jaymaldikar/Projects/SeleniumCSharpFramework/SeleniumCSharpFramework/TestAreas/HomePage/PageObjects/HomePageMethods.cs" relfile="SeleniumCSharpFramework/TestAreas/HomePage/PageObjects/HomePageMethods.cs" line="45" column="1" />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
