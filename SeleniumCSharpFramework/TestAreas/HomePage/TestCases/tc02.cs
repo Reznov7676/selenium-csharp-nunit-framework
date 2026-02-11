@@ -7,7 +7,7 @@ using SeleniumCSharpFramework.TestAreas.HomePage.JsonDataObjects;
 using System.IO;
 namespace SeleniumCSharpFramework.TestAreas.HomePage.TestCases;
 
-
+//hell0
 public class tc02 : BaseTest
 {
     [Test]
